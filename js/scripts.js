@@ -58,7 +58,7 @@ videoContainer.addEventListener('click', () => {
 }, false);
 
 
-//Facebook sharing
+//Facebook Sharing
 document.querySelector('.sharing__link--facebook').onclick = function() {
   FB.ui({
     method: 'share',
@@ -67,5 +67,3 @@ document.querySelector('.sharing__link--facebook').onclick = function() {
     href: 'https://brightlocker.com',
   }, function(response){});
 }
-
-
